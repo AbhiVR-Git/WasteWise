@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    
+    body {
+        background-color: #1E3A8A; /* Dark Blue */
+        color: #F9FAFB; /* Soft White */
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .logo {
+        padding-top: 30px;
+        font-size: 35px;
+    }
+    .logo b {
+        color: #FACC15; /* Gold Accent */
+    }
+    .para {
+        font-size: 28px;
+    }
+    a {
+        font-size: 20px;
+        background: #FACC15; /* Gold */
+        padding: 12px 35px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #1E3A8A; /* Dark Blue */
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    a:hover {
+        background: #FFD700; /* Brighter Gold */
+        letter-spacing: 4px;
+    }
+    .log {
+        margin: auto;
+        display: grid;
+        gap: 15px;
+        justify-content: center;
+    }
+    .add {
+        margin: auto;
+        padding-top: 20px;
+    }
+    @media only screen and (max-width: 768px) {
+        .logo {
+            font-size: 30px;
+        }
+        .para {
+            font-size: 20px;
+        }
+        a {
+            font-size: 18px;
+            padding: 10px 25px;
+        }
+    }
+</style>
+<body>
+    <p class="logo"> Welcome to Waste <b>Wise</b></p>
+    <p class="para"> Login as</p>
+    <div class="log">
+        <a href="signup.php">User</a>
+        <a href="admin/signup.php">Admin</a>
+        <a href="delivery/deliverysignup.php" id="delivery">Delivery</a>
+    </div>
+</body>
+</html>
